@@ -1,0 +1,39 @@
+body {
+  background-color: #000000;
+  margin: 0px;
+  overflow: hidden;
+  font-style: "Arial";
+}
+
+#info {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  color: #ffffff;
+  padding: 5px;
+  font-family: Monospace;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+}
+button {
+  position: absolute;
+}
+
+.link {
+font-size: 20px;
+color: #000;
+}
+
+#modal {
+  z-index: 99999 !important;
+  height: 1px;
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  background-color: #ffffff;
+}

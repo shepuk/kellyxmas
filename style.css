@@ -1,0 +1,27 @@
+#modal {
+    z-index: 99999 !important;
+    height: 1px;
+    overflow: hidden;
+    width: 100%;
+    top: 0px;
+    background-color: #ffffff;
+  }
+
+  .red {
+    color: red;
+  }
+  .green {
+    color: green;
+  }
+  .blue {
+    color: blue;
+  }
+
+  .red .green .blue {
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .rgbcontainer {
+    display: flex;
+  }

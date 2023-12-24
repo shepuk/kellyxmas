@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  font-family: helvetica;
+}
+canvas {
+  border: 2px solid rgb(151, 149, 149);
+}
+
+#modal {
+  z-index: 99999 !important;
+  height: 1px;
+  overflow: hidden;
+  width: 100%;
+  top: 0px;
+  background-color: #ffffff;
+}
